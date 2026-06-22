@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
+    <button onclick="cambiarPag(2)">IR A OTRA PAG</button>
+    
     <form>
         <label for="nombre">Nombre: </label>
         <input type="text" name="nombre" id="nombre">
@@ -18,9 +20,10 @@
     <button onclick="guardarDatos()">Enviar</button>
 
 
-    <div id="resultado">
-        
+    <div id="resultado" style="display: none;">
+        <h1>Datos ingresados: </h1>
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>
